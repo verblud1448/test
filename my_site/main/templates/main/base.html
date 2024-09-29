@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title%}{%endblock%}</title>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'main/css/base.css'%}">
+    <link rel="stylesheet" href="{%static 'main/css/sheet1.css'%}">
+    <link rel="stylesheet" href="{%static 'main/css/sheet2.css'%}">
+</head>
+<body>
+    <div class="hat">
+        <img href="{%static 'main/image/7879462 1.png'%}">
+        <a href="/" class="but1" >Главная страница</a>
+        <a href="catalog/" class="but2">каталог</a>
+
+    </div>
+    <div content="">{%block content%}{%endblock%}</div>
+
+
+
+
+</body>
+</html>
